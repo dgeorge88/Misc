@@ -1,0 +1,26 @@
+//installs the express command-line
+npm install express-generator -g
+
+#Helpful snippets
+express -h
+
+//Creates an Express app with a name of your choice
+Express --view=pug appname
+
+//Go to appname directory
+cd appname
+
+//Install dependencies
+npm install
+
+//MacOS app runner
+DEBUG=myapp
+npm start
+
+//Windows app runner
+set DEBUG=myapp
+npm start
+
+
+//start test server
+nodemon
